@@ -1,0 +1,13 @@
+# Python
+backend/__pycache__/
+backend/.venv/
+backend/*.db
+
+# Node / Frontend
+node_modules/
+.next/
+dist/
+build/
+
+# Secrets
+.env
