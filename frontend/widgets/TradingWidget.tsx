@@ -70,11 +70,11 @@ export function TradingWidget() {
               </linearGradient>
             </defs>
             <YAxis domain={['auto', 'auto']} hide />
-            <Tooltip 
-              contentStyle={{ backgroundColor: '#18181b', borderColor: '#27272a', color: '#fff' }} 
+            <Tooltip
+              contentStyle={{ backgroundColor: '#18181b', borderColor: '#27272a', color: '#fff' }}
               itemStyle={{ color: '#60a5fa' }}
               labelStyle={{ display: 'none' }}
-              formatter={(value: number) => [`$${value.toFixed(2)}`, "Value"]}
+              formatter={(value: any) => [`$${Number(value || 0).toFixed(2)}`, "Value"]}
             />
             <Area
               type="monotone"
