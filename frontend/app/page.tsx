@@ -28,7 +28,7 @@ export default function Page() {
           <div className="rounded-xl border border-zinc-800 bg-zinc-950/40 p-4">
             <div className="text-sm font-medium text-zinc-200">System</div>
             <div className="mt-2 text-xs text-zinc-500">
-              Backend: <span className="text-zinc-300">http://localhost:8000</span>
+              Backend: <span className="text-zinc-300">https://command-centre-api.onrender.com</span>
             </div>
             <div className="mt-1 text-xs text-zinc-500">
               Frontend: <span className="text-zinc-300">http://localhost:3000</span>
